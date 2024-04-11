@@ -35,7 +35,7 @@ class _myrecipesState extends State<myrecipes> {
               if(snapshot.hasData){
                 return GridView.builder(
                   itemCount: snapshot.data!.docs.length,
-                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3), 
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2), 
                   itemBuilder: (context, index) {
                     return Padding(
                       padding: const EdgeInsets.all(8.0),

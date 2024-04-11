@@ -217,7 +217,7 @@ class _signupState extends State<signup> {
                               "Email":emailcontroller.text.toString(),
                               "Dp":"",
                               "Bio":"-",
-                              "Recipes":0
+                              "Recipes":0,
                             });
                             Navigator.pushReplacement(context, MaterialPageRoute(builder: (context)=>loading()));
                           }).onError((error, stackTrace){

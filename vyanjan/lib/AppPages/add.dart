@@ -7,6 +7,7 @@ import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:image_picker/image_picker.dart';
+import 'package:vyanjan/AppPages/addvideo.dart';
 
 class add extends StatefulWidget {
   const add({super.key});
@@ -41,6 +42,12 @@ class _addState extends State<add> {
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text("Post a Recipe"),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>addvideo()));
+        },
+        child: Icon(Icons.video_camera_back_outlined),
       ),
       body: Padding(
         padding: const EdgeInsets.only(left: 15,right: 15,top: 5,bottom: 5),

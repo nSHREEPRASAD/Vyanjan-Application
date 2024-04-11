@@ -48,6 +48,12 @@ dependencies:
   #ImagePicker
   image_picker: ^1.0.7
 
+  #VideoPlayer
+  video_player: ^2.8.3
+
+  #VideoPlayerControlPanel
+  video_player_control_panel: ^1.1.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

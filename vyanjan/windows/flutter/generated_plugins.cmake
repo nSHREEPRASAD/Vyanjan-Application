@@ -8,6 +8,8 @@ list(APPEND FLUTTER_PLUGIN_LIST
   firebase_auth
   firebase_core
   firebase_storage
+  fullscreen_window
+  video_player_win
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
